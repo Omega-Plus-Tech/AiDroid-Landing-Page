@@ -411,6 +411,11 @@ button, input, textarea, select { font-family: var(--font-body); font-size: 1rem
 }
 .featured-pack__main h3 { font-size: 1.7rem; margin-bottom: 14px; }
 .featured-pack__desc { color: rgba(255,255,255,0.7); margin-bottom: 24px; max-width: 520px; }
+.featured-pack__live { display: inline-flex; align-items: center; gap: 8px; flex-wrap: wrap; margin: -8px 0 24px; padding: 10px 16px; border-radius: 10px; background: rgba(52,211,153,0.12); border: 1px solid rgba(52,211,153,0.35); color: rgba(255,255,255,0.85); font-size: 0.95rem; max-width: 520px; }
+.featured-pack__live > i { color: #34d399; }
+.featured-pack__live a { color: #fff; font-weight: 600; text-decoration: none; display: inline-flex; align-items: center; gap: 6px; }
+.featured-pack__live a:hover { text-decoration: underline; }
+.featured-pack__live a i { font-size: 0.8em; }
 .featured-pack__includes { display: flex; gap: 14px; flex-wrap: wrap; margin-bottom: 28px; }
 .featured-pack__includes span {
   display: flex; align-items: center; gap: 8px;
